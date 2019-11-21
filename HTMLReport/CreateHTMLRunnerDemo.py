@@ -46,5 +46,6 @@ class MyTestCase(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
 
-if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HtmlTestRunner(output='C://Users//computer//PycharmProjects//SeleniumTutorialPractice//HTMLReport//Reports'),verbosity=2)
+# if __name__ == '__main__':
+#
+#     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/Users/computer/PycharmProjects/SeleniumTutorialPractice/HTMLReport/Reports'))
